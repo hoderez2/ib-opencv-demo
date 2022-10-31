@@ -18,7 +18,7 @@ jobs:
     
     incredibuild:
       # Type of runner job will run on
-      runs-on: [self-hosted, Windows, X64]
+      runs-on: [self-hosted, Windows, X64, erez]
       defaults:
         run:
            shell: cmd
